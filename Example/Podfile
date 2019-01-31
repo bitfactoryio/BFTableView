@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BFTableView_Example' do
+  pod 'BFTableView', :path => '../'
+
+  target 'BFTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

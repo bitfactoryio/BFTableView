@@ -1,0 +1,6 @@
+framework module BFTableView {
+  umbrella header "BFTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

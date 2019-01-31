@@ -1,0 +1,22 @@
+{
+  "name": "BFTableView",
+  "version": "0.1.0",
+  "summary": "A short description of BFTableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Antons Aleksandrovs/BFTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Antons Aleksandrovs": "antons@bitfactory.io"
+  },
+  "source": {
+    "git": "https://github.com/Antons Aleksandrovs/BFTableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BFTableView/Classes/**/*"
+}

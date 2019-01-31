@@ -1,0 +1,16 @@
+PODS:
+  - BFTableView (0.1.0)
+
+DEPENDENCIES:
+  - BFTableView (from `../`)
+
+EXTERNAL SOURCES:
+  BFTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BFTableView: 0505c7408ce0ca6eabb1cfcec177e1244608caa5
+
+PODFILE CHECKSUM: e7380e3245053f1e7addbd61b0c4aa72a1f5fc16
+
+COCOAPODS: 1.5.3
