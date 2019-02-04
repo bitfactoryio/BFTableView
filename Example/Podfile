@@ -1,3 +1,4 @@
+platform :ios, '11.0'
 use_frameworks!
 
 target 'BFTableView_Example' do
@@ -6,6 +7,5 @@ target 'BFTableView_Example' do
   target 'BFTableView_Tests' do
     inherit! :search_paths
 
-    
   end
 end

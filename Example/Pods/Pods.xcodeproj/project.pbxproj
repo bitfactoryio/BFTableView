@@ -16,7 +16,7 @@
 		A1D505450C9CACD3B1B10865E250268C /* BFTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF618575D2B659371F58707A44CEFE9B /* BFTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8A5C8AECC79F394526DA55E4BD0B5D9 /* Pods-BFTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD184CC2900E4489316232D5F0EB0863 /* Pods-BFTableView_Example-dummy.m */; };
 		D6F42799B3A85B491AC50D08A3B563FF /* Pods-BFTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7AC9DB9FD49F5D1B3A9A982E6F93057 /* Pods-BFTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDE70DF3860609731C3A5C487CE9EC80 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE85472E6F317B52AA9E8B477B026C7 /* ReplaceMe.swift */; };
+		DDE70DF3860609731C3A5C487CE9EC80 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE85472E6F317B52AA9E8B477B026C7 /* TableViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,26 +42,26 @@
 		1B24EE7620D82556722660D9F1F3BBCE /* Pods-BFTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BFTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1F5D64F0FB235027F463E92F74F703A4 /* Pods-BFTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BFTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		204D8C8607FCBF58544EF68A2A1E94CA /* Pods-BFTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BFTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2CC066A27741B34E009A8245B5076779 /* Pods_BFTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BFTableView_Tests.framework; path = "Pods-BFTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38FAEBC8BCC9CD96ADE4A8D85959B0B4 /* BFTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BFTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CC066A27741B34E009A8245B5076779 /* Pods_BFTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BFTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FAEBC8BCC9CD96ADE4A8D85959B0B4 /* BFTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BFTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40ADBD21143BC3CD660977012FC3E860 /* Pods-BFTableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BFTableView_Example-resources.sh"; sourceTree = "<group>"; };
-		45F5FD7213180DB8FDA78FF68A91A6C2 /* Pods_BFTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BFTableView_Example.framework; path = "Pods-BFTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F5FD7213180DB8FDA78FF68A91A6C2 /* Pods_BFTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BFTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5626551E3303546F8F051DE7042BA42F /* Pods-BFTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BFTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		591A1558C0FD37F59FDFD2280BAD655B /* BFTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BFTableView.modulemap; sourceTree = "<group>"; };
-		6459FFB7ED61A3513337D1C79F9F12C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6CAAE86D024EBE263C970091D6AE76FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6459FFB7ED61A3513337D1C79F9F12C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6CAAE86D024EBE263C970091D6AE76FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6CF0ABBEE4ED33317AF4B5B6DA247907 /* Pods-BFTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BFTableView_Example.modulemap"; sourceTree = "<group>"; };
-		6EE85472E6F317B52AA9E8B477B026C7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BFTableView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6EE85472E6F317B52AA9E8B477B026C7 /* TableViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewExtension.swift; path = BFTableView/Classes/TableViewExtension.swift; sourceTree = "<group>"; };
 		723C2B6FE7E3CB736D565E2D9B2756EE /* Pods-BFTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BFTableView_Tests-dummy.m"; sourceTree = "<group>"; };
 		7F749B84F1AD1BD694A2115E35820E61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DB685EF8AA24AF870FF5DD244B0BAC /* Pods-BFTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BFTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8727D3CC90F56E2010470C66C73BA79D /* Pods-BFTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BFTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8C8C2238A05774D04BCA0613854636F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3D1F9D09E996CA2420EAD438C39FC39 /* Pods-BFTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BFTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A44E87E168AB6C1134FD8B1B0883B31B /* Pods-BFTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BFTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD184CC2900E4489316232D5F0EB0863 /* Pods-BFTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BFTableView_Example-dummy.m"; sourceTree = "<group>"; };
-		BD73C5AE1531B1145452C4CE3F15FB13 /* BFTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BFTableView.framework; path = BFTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD73C5AE1531B1145452C4CE3F15FB13 /* BFTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BFTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2E495D0E6BBEAF9D280EF3E09CD5B /* Pods-BFTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BFTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CA4BCEE2EBDE59A21AAA0BA19A831F22 /* Pods-BFTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BFTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CC411BA44553031940F26E149E5B1A42 /* Pods-BFTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BFTableView_Tests.modulemap"; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 		C53448D0EA55436B4002F2DF3924168D /* BFTableView */ = {
 			isa = PBXGroup;
 			children = (
-				6EE85472E6F317B52AA9E8B477B026C7 /* ReplaceMe.swift */,
+				6EE85472E6F317B52AA9E8B477B026C7 /* TableViewExtension.swift */,
 				9FFD5F4B82EA330FA296F0510203ECCD /* Pod */,
 				08A52C9B75FDC38CC6A206E4BB63EB47 /* Support Files */,
 			);
@@ -379,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01BEAC8A9D73067CECCFEDAC2601C5EB /* BFTableView-dummy.m in Sources */,
-				DDE70DF3860609731C3A5C487CE9EC80 /* ReplaceMe.swift in Sources */,
+				DDE70DF3860609731C3A5C487CE9EC80 /* TableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +425,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BFTableView/BFTableView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BFTableView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BFTableView/BFTableView.modulemap";
 				PRODUCT_MODULE_NAME = BFTableView;
@@ -595,8 +595,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -719,7 +718,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BFTableView/BFTableView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BFTableView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BFTableView/BFTableView.modulemap";
 				PRODUCT_MODULE_NAME = BFTableView;
