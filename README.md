@@ -14,7 +14,9 @@ Use it pod and never ever use table view cells identifiers in code. You need to 
 
 ### Use it!
 
-`import BFTableView`
+```swift
+import BFTableView
+```
 
 ```swift
 func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
