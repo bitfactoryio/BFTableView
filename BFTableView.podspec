@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Antons Aleksandrovs' => 'antons@bitfactory.io' }
   s.source           = { :git => 'https://github.com/bitfactoryio/BFTableView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/bitfactoryio'
-  s.swift_version = '4.0'
+  s.swift_version = '5.1'
   
   s.ios.deployment_target = '11.0'
 

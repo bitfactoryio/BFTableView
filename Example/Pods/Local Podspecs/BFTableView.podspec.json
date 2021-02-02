@@ -1,9 +1,9 @@
 {
   "name": "BFTableView",
-  "version": "0.1.0",
-  "summary": "A short description of BFTableView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Antons Aleksandrovs/BFTableView",
+  "version": "0.9.0",
+  "summary": "With BFTableView you can remove all table view cells identifiers from you code and never ever be mistaken with accessing right cells!",
+  "description": "Currently you need to hardcode cell identifiers when you use f.e. tableView(cellForRow:AtIndexPath) method and it easy to make a mistake and make your app crash. Now you can just set cell identifier in storyboard with name of cell class and never type it in code anymore.",
+  "homepage": "https://www.bitfactory.io/de/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,14 @@
     "Antons Aleksandrovs": "antons@bitfactory.io"
   },
   "source": {
-    "git": "https://github.com/Antons Aleksandrovs/BFTableView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/bitfactoryio/BFTableView.git",
+    "tag": "0.9.0"
   },
+  "social_media_url": "https://twitter.com/bitfactoryio",
+  "swift_versions": "5.1",
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "BFTableView/Classes/**/*"
+  "source_files": "BFTableView/Classes/**/*",
+  "swift_version": "5.1"
 }

@@ -1,5 +1,5 @@
 PODS:
-  - BFTableView (0.1.0)
+  - BFTableView (0.9.0)
 
 DEPENDENCIES:
   - BFTableView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BFTableView: 0505c7408ce0ca6eabb1cfcec177e1244608caa5
+  BFTableView: ba47bdc565c491590a5d8272ab9720f6e80fa8c0
 
-PODFILE CHECKSUM: e7380e3245053f1e7addbd61b0c4aa72a1f5fc16
+PODFILE CHECKSUM: 42817d46f4e5e981a01bf1dd6460e47a50e40d35
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1
