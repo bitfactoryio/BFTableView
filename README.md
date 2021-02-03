@@ -9,13 +9,13 @@
 
 To run the example project, clone the repo and open Example/Example.xcworkspace/ in XCode.
 
-## Usage
-
-Use it pod and never ever use table view cells identifiers in code. You need to set cell identifier in storyboard and name it same as cell class. Then just cast table view cell as custom class and don't worry about cell identifier anymore.
-
 ## Requirements
 - iOS 11.0+
 - Swift 5.1
+
+## Usage
+
+Use it pod and never ever use table view cells identifiers in code. You need to set cell identifier in storyboard and name it same as cell class. Then just cast table view cell as custom class and don't worry about cell identifier anymore.
 
 ## Use it!
 
